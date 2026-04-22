@@ -31,7 +31,7 @@ function Products() {
   };
 
   const deleteProduct = async (id) => {
-    await axios.delete(`http://localhost:5000/api/products/${id}`);
+    await axios.delete(`https://khushi-store-backend.onrender.com/api/products/${id}`);
     fetchProducts();
   };
 

@@ -9,7 +9,7 @@ function Register() {
   const submitHandler = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/users/register",
+        "https://khushi-store-backend.onrender.com/api/users/register",
         { name, email, password }
       );
 

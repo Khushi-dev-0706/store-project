@@ -8,7 +8,7 @@ function Login() {
   const submitHandler = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/users/login",
+        "https://khushi-store-backend.onrender.com/api/users/login",
         { email, password }
       );
 
